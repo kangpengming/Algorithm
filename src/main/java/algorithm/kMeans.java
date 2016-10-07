@@ -26,7 +26,6 @@ public class kMeans {
     private ArrayList<int[]>[] resultSpot = null;
     private int n = 0;
 
-    private ArrayList<Integer> xRecord = new ArrayList<Integer>();
     private ArrayList<Integer> yRecord = new ArrayList<Integer>();
         /**
          * kmeans构造函数

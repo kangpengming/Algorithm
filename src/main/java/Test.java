@@ -1,5 +1,6 @@
 import algorithm.kMeans;
 
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Random;
@@ -20,4 +21,5 @@ public class Test {
         System.out.println("the origin number is: "+list);
         new kMeans(8,list).method(3);
     }
+
 }
